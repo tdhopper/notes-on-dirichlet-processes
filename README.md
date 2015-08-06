@@ -1,2 +1,7 @@
 I taught myself Dirichlet processes and Hierarchal DPs in the spring of 2015 in order to understand nonparametric Bayesian models and related inference algorithms. In the process, I wrote a bunch of code and took a bunch of notes; later, I turned these into [blog posts](http://stiglerdiet.com/category/nonparametric-bayes.html).
 
+## Table of Contents
+
+* [Dirichlet Distribution and Dirichlet Processes](https://github.com/tdhopper/notes-on-dirichlet-processes/blob/master/2015-07-28-dirichlet-distribution-dirichlet-process.ipynb): A quick review of the Dirichlet Distribution and an introduction to the Dirichlet Process by analogy with the Dirichlet Distribution.
+* [Sampling from a Hierarchical Dirichlet Process](https://github.com/tdhopper/notes-on-dirichlet-processes/blob/master/2015-07-30-sampling-from-a-hierarchical-dirichlet-process.ipynb): Code demonstrating how you can sample from a Hierarchical Dirichlet Process without generating an infinite number of parameters first.
+* [Nonparametric Latent Dirichlet Allocation](https://github.com/tdhopper/notes-on-dirichlet-processes/blob/master/2015-08-03-nonparametric-latent-dirichlet-allocation.ipynb): An alternative view of latent Dirichlet allocation using a Dirichlet process, and a demonstration of how it can be easily extended to a nonparametric model (where the number of topics becomes a random variable fit by the inference algorithm) using a hierarchical Dirichlet process.
