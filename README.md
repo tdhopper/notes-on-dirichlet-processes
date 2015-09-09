@@ -1,5 +1,8 @@
 I taught myself Dirichlet processes and Hierarchal DPs in the spring of 2015 in order to understand nonparametric Bayesian models and related inference algorithms. In the process, I wrote a bunch of code and took a bunch of notes; later, I turned these into [blog posts](http://stiglerdiet.com/category/nonparametric-bayes.html).
 
+You can access these notebooks interactively with Binder: [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/tdhopper/notes-on-dirichlet-processes)
+
+
 ## Table of Contents
 
 * [Dirichlet Distribution and Dirichlet Processes](https://github.com/tdhopper/notes-on-dirichlet-processes/blob/master/2015-07-28-dirichlet-distribution-dirichlet-process.ipynb): A quick review of the Dirichlet Distribution and an introduction to the Dirichlet Process by analogy with the Dirichlet Distribution.
