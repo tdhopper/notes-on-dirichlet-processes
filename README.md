@@ -7,6 +7,7 @@ I taught myself Dirichlet processes and Hierarchal DPs in the spring of 2015 in 
 * [Nonparametric Latent Dirichlet Allocation](https://github.com/tdhopper/notes-on-dirichlet-processes/blob/master/2015-08-03-nonparametric-latent-dirichlet-allocation.ipynb): An alternative view of latent Dirichlet allocation using a Dirichlet process, and a demonstration of how it can be easily extended to a nonparametric model (where the number of topics becomes a random variable fit by the inference algorithm) using a hierarchical Dirichlet process.
 * [Fitting a Mixture Model with Gibbs Sampling](https://github.com/tdhopper/notes-on-dirichlet-processes/blob/master/2015-09-02-fitting-a-mixture-model.ipynb): Derivation of a full Gibbs sampler for a finite mixture model with a Dirichlet prior. This is a step on the way to deriving a Gibbs sampler for the Dirichlet Process Mixture Model.
 * [Notes on Gibbs Sampling in Hierarchal Dirichlet Process Models](http://stiglerdiet.com/blog/2015/Sep/11/notes-on-gibbs-sampling-in-hierarchal-dirichlet-process-models/): Notes on apply the equations given in the [Hierarchal Dirichlet Process](http://www.cs.berkeley.edu/~jordan/papers/hdp.pdf) paper to nonparametric Latent Dirichlet Allocation. 
+* [Sample from Antoniak Distribution with Python](https://gist.github.com/tdhopper/80dbf2582e12ab5d08e1): Code for drawing samples from the distribution of tables created by a Chinese restaurant process after `n` patrons are seated.
 
 ## A Note on the term "Dirichlet Process"
 
