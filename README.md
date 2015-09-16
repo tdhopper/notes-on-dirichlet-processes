@@ -16,3 +16,7 @@ Part of the impetus for compiling these notes was how carelessly the term "Diric
 Although I thought I had come to the correct understanding (which is presented here), [Dan Roy](https://twitter.com/roydanroy) [helpfully pointed out](http://danroy.org/marginalia/Nomenclature_for_stochastic_processes_and_Bayesian_nonparametric_statistics) that I probably got it wrong _given how Dirichlet Process is defined by [Ferguson 1973](http://www.cs.berkeley.edu/~jordan/courses/281B-spring04/readings/ferguson.pdf)_. Ferguson's use of Dirichlet process does not make it a "distribution over distributions" as [Neal](http://www.stat.columbia.edu/npbayes/papers/neal_sampling.pdf), [Teh](http://www.stats.ox.ac.uk/~teh/research/npbayes/Teh2010a.pdf), [Jordan](http://www.cs.berkeley.edu/~jordan/courses/281B-spring04/lectures/dp1.pdf), and [Blei](http://web.mit.edu/sjgershm/www/GershmanBlei12.pdf) call it. At best, I believe there is equivocation on the term "Dirichlet Process" in the NPB literature. At worst, there is wide scale confusion on what a Dirichlet process is!
 
 At some point, I intend to write a post trying to explain the subtleties of this discussion. In the mean time, I would suggest that my posts will still be valuable in understanding the literature on nonparametric Bayes, even if it won't get you a Ph.D. in measure theory.
+
+## Other Resources
+
+* [A collection of links to resources I've found valuable](https://pinboard.in/u:tdhopper/t:%2540Bayes/)
