@@ -11,6 +11,7 @@ You can access these notebooks interactively with Binder: [![Binder](http://mybi
 * [Fitting a Mixture Model with Gibbs Sampling](https://github.com/tdhopper/notes-on-dirichlet-processes/blob/master/2015-09-02-fitting-a-mixture-model.ipynb): Derivation of a full Gibbs sampler for a finite mixture model with a Dirichlet prior. This is a step on the way to deriving a Gibbs sampler for the Dirichlet Process Mixture Model.
 * [Notes on Gibbs Sampling in Hierarchical Dirichlet Process Models](https://github.com/tdhopper/notes-on-dirichlet-processes/blob/master/2015-09-21-hdp-lda-gibbs-sampler.pdf): Notes on apply the equations given in the [Hierarchical Dirichlet Process](http://www.cs.berkeley.edu/~jordan/papers/hdp.pdf) paper to nonparametric Latent Dirichlet Allocation.
 * [Sample from Antoniak Distribution with Python](https://github.com/tdhopper/notes-on-dirichlet-processes/blob/master/2015-09-21-antoniak.py): Code for drawing samples from the distribution of tables created by a Chinese restaurant process after `n` patrons are seated.
+* [Analysis of the topics of Econtalk with HDP-LDA](https://github.com/tdhopper/notes-on-dirichlet-processes/blob/master/2015-10-07-econtalk-topics.ipynb): Demonstration of the nonparametric latent Dirichlet allocation component of [data microscopes](datamicroscopes.github.io) that I developed. Analyzes the topics of the [Econtalk podcast](http://econtalk.org) by using show notes/transcripts.
 
 ## A Note on the term "Dirichlet Process"
 
