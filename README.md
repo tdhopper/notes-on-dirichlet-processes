@@ -24,3 +24,13 @@ At some point, I intend to write a post trying to explain the subtleties of this
 ## Other Resources
 
 * [A collection of links to resources I've found valuable](https://pinboard.in/u:tdhopper/t:%2540Bayes/)
+
+### HDP-LDA Implementations
+
+* [Gregor Heinrich's ILDA](http://www.arbylon.net/publications/ilda.pdf): A Java-based implementation of the "Posterior Assignment by Direct Sampling" MCMC algorithm from Teh et al (2005). Includes hyperparameter sampling.
+* [Shuyo's Implementation](https://github.com/shuyo/iir/blob/master/lda/hdplda2.py): Pure Python implementation of "Posterior sampling in the Chinese restaurant franchise" MCMC algorithm. Doesn't include hyperparameter sampling.
+* [Teh's Original Implementations](https://github.com/tdhopper/teh-npbayes): Matlab and C code for MCMC accompanying original paper. I found it impenetrable.
+* [HCA](https://github.com/wbuntine/topic-models): C implementation
+* [HDP-Faster](https://github.com/renaud/hdp-faster): C++ implementation by Chong Wang using [split-merge algorithm](http://arxiv.org/abs/1201.1657).
+* [Gensim](https://radimrehurek.com/gensim/models/hdpmodel.html): Python-based variational inference (following [Chong Wang et al (2011)](http://jmlr.csail.mit.edu/proceedings/papers/v15/wang11a/wang11a.pdf)).
+* [bnpy](https://bitbucket.org/michaelchughes/bnpy/): Python implementation of variational inference.
