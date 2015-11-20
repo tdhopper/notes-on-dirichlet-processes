@@ -1,12 +1,6 @@
-I taught myself Dirichlet processes and Hierarchal DPs in the spring of 2015 in order to understand nonparametric Bayesian models and related inference algorithms. In the process, I wrote a bunch of code and took a bunch of notes; later, I turned these into [blog posts](http://stiglerdiet.com/category/nonparametric-bayes.html).
+I taught myself Dirichlet processes and Hierarchal DPs in the spring of 2015 in order to understand nonparametric Bayesian models and related inference algorithms. In the process, I wrote a bunch of code and took a bunch of notes. I preserved those notes here for the benefit of others trying to learn this material.
 
-I implemented the HDP-LDA component of the [data microscopes](http://datamicroscopes.github.io) project. You can install it with
-
-```
-$ conda install -c datamicroscopes -c distributions microscopes-lda
-```
-
-You can access these notebooks interactively with Binder: [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/tdhopper/notes-on-dirichlet-processes)
+------
 
 
 ## Table of Contents
@@ -19,6 +13,17 @@ You can access these notebooks interactively with Binder: [![Binder](http://mybi
 * [Notes on Gibbs Sampling in Hierarchical Dirichlet Process Models](https://github.com/tdhopper/notes-on-dirichlet-processes/blob/master/2015-09-21-hdp-lda-gibbs-sampler.pdf): Notes on apply the equations given in the [Hierarchical Dirichlet Process](http://www.cs.berkeley.edu/~jordan/papers/hdp.pdf) paper to nonparametric Latent Dirichlet Allocation.
 * [Sample from Antoniak Distribution with Python](https://github.com/tdhopper/notes-on-dirichlet-processes/blob/master/2015-09-21-antoniak.py): Code for drawing samples from the distribution of tables created by a Chinese restaurant process after `n` patrons are seated.
 * [Analysis of the topics of Econtalk with HDP-LDA](http://nbviewer.ipython.org/github/tdhopper/notes-on-dirichlet-processes/blob/master/2015-10-07-econtalk-topics.ipynb): Demonstration of the nonparametric latent Dirichlet allocation component of [data microscopes](http://datamicroscopes.github.io) that I developed. Analyzes the topics of the [Econtalk podcast](http://econtalk.org) by using show notes/transcripts.
+
+
+## Code
+
+I implemented the HDP-LDA component of the [data microscopes](http://datamicroscopes.github.io) project. You can install it with
+
+```
+$ conda install -c datamicroscopes -c distributions microscopes-lda
+```
+
+You can access these notebooks interactively with Binder: [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/tdhopper/notes-on-dirichlet-processes)
 
 ## A Note on the term "Dirichlet Process"
 
