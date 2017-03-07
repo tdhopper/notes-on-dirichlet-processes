@@ -2,11 +2,11 @@
 
 <!-- display the social media buttons in your README -->
 
-[![alt text][1.1]][1]
+By Tim Hopper: 
+[tdhopper.com](http://www.tdhopper.com)[![alt text][1.1]][1]
 [![alt text][3.1]][3]
 [![alt text][4.1]][4]
 [![alt text][6.1]][6]
-[tdhopper.com](http://www.tdhopper.com)
 
 
 <!-- links to social media icons -->
