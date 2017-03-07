@@ -3,8 +3,9 @@
 <!-- display the social media buttons in your README -->
 
 By Tim Hopper: 
-[tdhopper.com](http://www.tdhopper.com)[![alt text][1.1]][1]
-[![alt text][4.1]][4]
+[tdhopper.com](http://www.tdhopper.com)
+
+[![alt text][1.1]][1]
 [![alt text][6.1]][6]
 
 
@@ -34,7 +35,6 @@ By Tim Hopper:
 <!-- update these accordingly -->
 
 [1]: http://www.twitter.com/tdhopper
-[4]: http://doyouplayball.tumblr.com
 [6]: http://www.github.com/tdhopper
 
 <!-- Please don't remove this: Grab your social icons from https://github.com/carlsednaoui/gitsocial -->
