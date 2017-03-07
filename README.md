@@ -4,7 +4,6 @@
 
 By Tim Hopper: 
 [tdhopper.com](http://www.tdhopper.com)[![alt text][1.1]][1]
-[![alt text][3.1]][3]
 [![alt text][4.1]][4]
 [![alt text][6.1]][6]
 
@@ -35,7 +34,6 @@ By Tim Hopper:
 <!-- update these accordingly -->
 
 [1]: http://www.twitter.com/tdhopper
-[3]: https://plus.google.com/+CarlSednaoui
 [4]: http://doyouplayball.tumblr.com
 [6]: http://www.github.com/tdhopper
 
