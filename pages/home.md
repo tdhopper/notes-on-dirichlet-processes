@@ -1,5 +1,5 @@
 ---
-title: Notes on Dirichlet Processes
+title: Introduction
 slug: index
 ---
 
