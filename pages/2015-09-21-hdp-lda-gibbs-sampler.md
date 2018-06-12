@@ -1,6 +1,7 @@
 ---
 title: Notes on Hierarchical Dirichlet Process for Topic Models
 slug: hdp-lda
+has_math: true
 ---
 
 [Yee Whye Teh et al](http://www.cs.berkeley.edu/~jordan/papers/hdp.pdf)'s 2005 paper _Hierarchical Dirichlet Processes_ describes a nonparametric prior for grouped clustering problems. For example, the HDP helps in generalizing the [latent Dirichlet allocation](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation) model to the case the number of topics in the data are discovered by the inference algorithm instead of being specified as a parameter of the model.
