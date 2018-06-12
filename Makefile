@@ -59,12 +59,5 @@ clean:
 	rm -r $(BUILD)
 	rm -r $(MARKDOWN_DIR)
 
-html: $(BUILD)/html/$(BOOKNAME).html
-
-$(BUILD)/html/$(BOOKNAME).html: markdown
-	mkdir -p $(BUILD)/html
-	pandoc $(TOC) --standalone --to=html5 --css=$(CSS) -o $@ $(MARKDOWN_DIR)/*.html
-	cp -r markdown/* build/html/
-	cp -r css build/html/
 
 .PHONY: markdown html
