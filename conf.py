@@ -26,7 +26,7 @@ SITE_URL = "https://dp.tdhopper.com/"
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://dp.tdhopper.com/"
 BLOG_EMAIL = "tdhopper@gmail.com"
-BLOG_DESCRIPTION = "This is a demo site for Nikola."  # (translatable)
+BLOG_DESCRIPTION = "Notes on Dirichlet processes, Nonparametric Bayesian inference, and topic modeling."  # (translatable)
 
 # Nikola is multilingual!
 #
@@ -136,6 +136,7 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("https://tdhopper.com", "tdhopper.com"),
+        ("https://twitter.com/tdhopper", "@tdhopper"),
     ),
 }
 
