@@ -30,7 +30,7 @@ The generative model for Hierarchical Dirichlet Process Latent Dirichlet Allocat
 * $\theta_{ji}$ is a categorical distribution over terms, i.e. a topic.
 * $x_{ij}$ is a term.
 
-To see code for sampling from this generative model, see [this post](http://nbviewer.ipython.org/github/tdhopper/notes-on-dirichlet-processes/blob/master/2015-08-03-nonparametric-latent-dirichlet-allocation.ipynb).
+To see code for sampling from this generative model, see [this post](/nonparametric-lda/).
 
 ### Chinese Restaurant Franchise Approach
 
