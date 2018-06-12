@@ -36,21 +36,21 @@ html: $(BUILD)/$(HTML)/dirichlet-distribution-dirichlet-process.html \
 
 
 $(BUILD)/$(HTML)/dirichlet-distribution-dirichlet-process.html:
-	jupyter-nbconvert --to html \
+	jupyter-nbconvert --ExecutePreprocessor.timeout=180 --to html \
 		--output-dir $(BUILD)/$(HTML) \
 		--output dirichlet-distribution-dirichlet-process \
 	 	--execute 2015-07-28-dirichlet-distribution-dirichlet-process.ipynb
 
 
 $(BUILD)/$(HTML)/sampling-from-a-hierarchical-dirichlet-process.html:
-	jupyter-nbconvert --to html \
+	jupyter-nbconvert --ExecutePreprocessor.timeout=180 --to html \
 		--output-dir $(BUILD)/$(HTML) \
 		--output sampling-from-a-hierarchical-dirichlet-process \
 	 	--execute 2015-07-30-sampling-from-a-hierarchical-dirichlet-process.ipynb
 
 
 $(BUILD)/$(HTML)/nonparametric-latent-dirichlet-allocation.html:
-	jupyter-nbconvert --to html \
+	jupyter-nbconvert --ExecutePreprocessor.timeout=180 --to html \
 		--output-dir $(BUILD)/$(HTML) \
 		--output nonparametric-latent-dirichlet-allocation \
 	 	--execute 2015-08-03-nonparametric-latent-dirichlet-allocation.ipynb
