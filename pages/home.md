@@ -58,7 +58,7 @@ I taught myself Dirichlet processes and Hierarchal DPs in the spring of 2015 in 
 * [Fitting a Mixture Model with Gibbs Sampling](/mixture-model/): Derivation of a full Gibbs sampler for a finite mixture model with a uniform Dirichlet prior. This is a step on the way to deriving a Gibbs sampler for the Dirichlet Process Mixture Model.
 * [Collapsed Gibbs Sampling for Bayesian Mixture Models (with a Nonparametric Extension)](/collapsed-gibbs/): Derivation of a collapsed Gibbs sampler for a finite mixture model with a uniform Dirichlet prior. Extension (without derivation) of this Gibbs sampler to the Dirichlet Process Mixture Model.
 * [Notes on Gibbs Sampling in Hierarchical Dirichlet Process Models](/hdp-lda/): Notes on apply the equations given in the [Hierarchical Dirichlet Process](http://www.cs.berkeley.edu/~jordan/papers/hdp.pdf) paper to nonparametric Latent Dirichlet Allocation.
-* [Sample from Antoniak Distribution with Python](/antoniak.py): Code for drawing samples from the distribution of tables created by a Chinese restaurant process after `n` patrons are seated.
+* [Sample from Antoniak Distribution with Python](/antoniak/): Code for drawing samples from the distribution of tables created by a Chinese restaurant process after `n` patrons are seated.
 
 
 ## Code
