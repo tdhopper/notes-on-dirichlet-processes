@@ -7,7 +7,6 @@ all:
 	# Generate pdf of markdown notes
 	pandoc -o 2015-09-21-hdp-lda-gibbs-sampler.pdf 2015-09-21-hdp-lda-gibbs-sampler.md --verbose
 
-.PHONY: markdown
 markdown: markdown/dirichlet-distribution-dirichlet-process.md \
 		  markdown/sampling-from-a-hierarchical-dirichlet-process.md \
 		  markdown/nonparametric-latent-dirichlet-allocation.md
@@ -28,7 +27,8 @@ markdown/sampling-from-a-hierarchical-dirichlet-process.md:
 markdown/nonparametric-latent-dirichlet-allocation.md:
 	jupyter-nbconvert --to markdown --output-dir=$(MARKDOWN_DIR) \
 		--output=sampling-from-a-hierarchical-dirichlet-process \
-		2015-08-03-nonparametric-latent-dirichlet-allocation.ipynb.PHONY: markdown
+		2015-08-03-nonparametric-latent-dirichlet-allocation.ipynb
+
 
 html: $(BUILD)/$(HTML)/dirichlet-distribution-dirichlet-process.html \
 		  $(BUILD)/$(HTML)/sampling-from-a-hierarchical-dirichlet-process.html \
