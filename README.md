@@ -42,4 +42,4 @@ By Tim Hopper:
 
 # Notes Nonparametric Bayesian Methods and Dirichlet Processes
 
-I taught myself Dirichlet processes and Hierarchal DPs in the spring of 2015 in order to understand nonparametric Bayesian models and related inference algorithms. In the process, I wrote a bunch of code and took a bunch of notes. I preserved those notes [here](https://dp.tdhopper.com) for the benefit of others trying to learn this material.
+I taught myself Dirichlet processes and Hierarchical DPs in the spring of 2015 in order to understand nonparametric Bayesian models and related inference algorithms. In the process, I wrote a bunch of code and took a bunch of notes. I preserved those notes [here](https://dp.tdhopper.com) for the benefit of others trying to learn this material.
