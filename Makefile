@@ -1,12 +1,7 @@
-MARKDOWN_DIR=markdown
 BUILD = build
-BOOKNAME = my-book
-TITLE = title.txt
-METADATA = metadata.xml
+HTML = html
 CHAPTERS = ./markdown/%.md
-TOC = --toc --toc-depth=2
-COVER_IMAGE = images/cover.jpg
-LATEX_CLASS = report
+CSS = css/main.css
 
 all:
 	# Generate pdf of markdown notes
@@ -19,7 +14,7 @@ markdown: markdown/dirichlet-distribution-dirichlet-process.md \
 
 
 markdown/dirichlet-distribution-dirichlet-process.md:
-	jupyter-nbconvert --to markdown --output-dir=$(MARKDOWN_DIR) \
+	jupyter-nbconvert --to html \ --output-dir=$(MARKDOWN_DIR) \
 		--output=dirichlet-distribution-dirichlet-process \
 	 	2015-07-28-dirichlet-distribution-dirichlet-process.ipynb
 
@@ -33,7 +28,32 @@ markdown/sampling-from-a-hierarchical-dirichlet-process.md:
 markdown/nonparametric-latent-dirichlet-allocation.md:
 	jupyter-nbconvert --to markdown --output-dir=$(MARKDOWN_DIR) \
 		--output=sampling-from-a-hierarchical-dirichlet-process \
-		2015-08-03-nonparametric-latent-dirichlet-allocation.ipynb
+		2015-08-03-nonparametric-latent-dirichlet-allocation.ipynb.PHONY: markdown
+
+html: $(BUILD)/$(HTML)/dirichlet-distribution-dirichlet-process.html \
+		  $(BUILD)/$(HTML)/sampling-from-a-hierarchical-dirichlet-process.html \
+		  $(BUILD)/$(HTML)/nonparametric-latent-dirichlet-allocation.html
+
+
+$(BUILD)/$(HTML)/dirichlet-distribution-dirichlet-process.html:
+	jupyter-nbconvert --to html \
+		--output-dir $(BUILD)/$(HTML) \
+		--output dirichlet-distribution-dirichlet-process \
+	 	--execute 2015-07-28-dirichlet-distribution-dirichlet-process.ipynb
+
+
+$(BUILD)/$(HTML)/sampling-from-a-hierarchical-dirichlet-process.html:
+	jupyter-nbconvert --to html \
+		--output-dir $(BUILD)/$(HTML) \
+		--output sampling-from-a-hierarchical-dirichlet-process \
+	 	--execute 2015-07-30-sampling-from-a-hierarchical-dirichlet-process.ipynb
+
+
+$(BUILD)/$(HTML)/nonparametric-latent-dirichlet-allocation.html:
+	jupyter-nbconvert --to html \
+		--output-dir $(BUILD)/$(HTML) \
+		--output nonparametric-latent-dirichlet-allocation \
+	 	--execute 2015-08-03-nonparametric-latent-dirichlet-allocation.ipynb
 
 clean:
 	rm -r $(BUILD)
@@ -41,9 +61,10 @@ clean:
 
 html: $(BUILD)/html/$(BOOKNAME).html
 
-$(BUILD)/html/$(BOOKNAME).html:
+$(BUILD)/html/$(BOOKNAME).html: markdown
 	mkdir -p $(BUILD)/html
-	pandoc $(TOC) --standalone --to=html5 -o $@ $(MARKDOWN_DIR)/*.md
+	pandoc $(TOC) --standalone --to=html5 --css=$(CSS) -o $@ $(MARKDOWN_DIR)/*.html
 	cp -r markdown/* build/html/
+	cp -r css build/html/
 
-.PHONY: markdown book clean html
+.PHONY: markdown html
