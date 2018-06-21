@@ -1,5 +1,5 @@
 pandas
-Nikola[extras]
+nikola[extras]>=8.0.0b2
 numpy
 matplotlib
 scipy
