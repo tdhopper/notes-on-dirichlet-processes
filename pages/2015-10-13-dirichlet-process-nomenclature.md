@@ -1,9 +1,12 @@
 
+---
+title: Nomenclature of Dirichlet Processes
+slug: nomenclature
+---
+
+
 # Nomenclature of Dirichlet Processes
 
-* Tim Hopper
-* 2015-10-13
-* Qadium
 
 Much of the literature on Dirichlet Processes makes assertions similar to the following:
 
