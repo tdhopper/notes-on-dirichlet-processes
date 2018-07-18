@@ -47,5 +47,5 @@ At some point, I intend to write a post trying to explain the subtleties of this
 * [HCA](https://github.com/wbuntine/topic-models): C implementation
 * [HDP-Faster](https://github.com/renaud/hdp-faster): C++ implementation by Chong Wang using [split-merge algorithm](http://arxiv.org/abs/1201.1657).
 * [Gensim](https://radimrehurek.com/gensim/models/hdpmodel.html): Python-based variational inference (following [Chong Wang et al (2011)](http://jmlr.csail.mit.edu/proceedings/papers/v15/wang11a/wang11a.pdf)).
-* [bnpy](https://bitbucket.org/michaelchughes/bnpy/): Python implementation of variational inference.
+* [bnpy](https://github.com/bnpy/bnpy): Python implementation of variational inference.
 
