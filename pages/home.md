@@ -49,3 +49,4 @@ At some point, I intend to write a post trying to explain the subtleties of this
 * [Gensim](https://radimrehurek.com/gensim/models/hdpmodel.html): Python-based variational inference (following [Chong Wang et al (2011)](http://jmlr.csail.mit.edu/proceedings/papers/v15/wang11a/wang11a.pdf)).
 * [bnpy](https://github.com/bnpy/bnpy): Python implementation of variational inference.
 
+<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us15.list-manage.com","uuid":"8d66a62ca6b0823dfc767de63","lid":"f1c0e59e9b","uniqueMethods":true}) })</script>
