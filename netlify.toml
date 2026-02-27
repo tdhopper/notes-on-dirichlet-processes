@@ -1,0 +1,70 @@
+[build]
+  publish = "public"
+  command = "mkdir -p public"
+
+[[redirects]]
+  from = "/"
+  to = "https://tdhopper.com/tags/dirichlet-processes/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/dirichlet-distribution/"
+  to = "https://tdhopper.com/blog/dirichlet-distribution/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/hdp-sampling/"
+  to = "https://tdhopper.com/blog/hdp-sampling/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/nonparametric-lda/"
+  to = "https://tdhopper.com/blog/nonparametric-lda/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/mixture-model/"
+  to = "https://tdhopper.com/blog/mixture-model/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/collapsed-gibbs/"
+  to = "https://tdhopper.com/blog/collapsed-gibbs/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/hdp-lda/"
+  to = "https://tdhopper.com/blog/hdp-lda/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/econtalk-topics/"
+  to = "https://tdhopper.com/blog/econtalk-topics/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/nomenclature/"
+  to = "https://tdhopper.com/blog/nomenclature/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/antoniak/"
+  to = "https://tdhopper.com/blog/antoniak/"
+  status = 301
+  force = true
+
+# Catch-all: send anything else to the tag landing page
+[[redirects]]
+  from = "/*"
+  to = "https://tdhopper.com/tags/dirichlet-processes/"
+  status = 301
+  force = true
